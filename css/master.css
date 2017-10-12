@@ -7,9 +7,17 @@ h2 {
 h3 {
   font-size: 1em;
 }
-
+p {
+  font-size: .9em;
+}
+.left-bar {
+  display: inline-block;
+  float: left;
+  width: 15%;
+}
 .main-area {
-  margin: 10px;
+  display: inline-block;
+  width: 85%
 }
 .half-col {
   width: 48%;
@@ -35,9 +43,18 @@ h3 {
     background-color: #DDF;
     border-color: #AAF;
   }
+  .mast-green {
+    background-color: #DFD;
+    border-color: #AFA;
+  }
 img {
   margin: 5px;
 }
 img.float-left {
   float-left;
+}
+.left-bar img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
 }
