@@ -1,0 +1,43 @@
+h1 {
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1.25em;
+}
+h3 {
+  font-size: 1em;
+}
+
+.main-area {
+  margin: 10px;
+}
+.half-col {
+  width: 48%;
+  display: inline-block;
+}
+.left-col {
+  width: 60%;
+  display: inline-block;
+  background-color: #EFE;
+}
+.right-col {
+  width: 40%;
+  display: inline-block;
+  background-color: #EEF;
+  float: right;
+}
+.masthead {
+  margin: 3px;
+  border: 1px solid black;
+  font-weight: bold;
+}
+  .mast-blue {
+    background-color: #DDF;
+    border-color: #AAF;
+  }
+img {
+  margin: 5px;
+}
+img.float-left {
+  float-left;
+}
